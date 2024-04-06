@@ -1,0 +1,45 @@
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/happy\ birthday.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 20%;
+  }
+  
+  h1 {
+    font-size: 40px;
+    text-shadow: 0 0 10px black, 0 0 20px #ff8a00, 0 0 30px #ff8a00, 0 0 40px #ff8a00, 0 0 50px #ff8a00, 0 0 60px #ff8a00, 0 0 70px #ff8a00; 
+  }
+  
+  p {
+    text-shadow: 0 0 10px black, 0 0 20px #ff8a00, 0 0 30px #ff8a00, 0 0 40px #ff8a00, 0 0 50px #ff8a00, 0 0 60px #ff8a00, 0 0 70px #ff8a00; 
+  }
+  
+  #countdown {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .time {
+    font-size: 40px;
+    margin: 0 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  
+  #event-details {
+    margin-top: 50px;
+  }
+  
+  #event-details p {
+    font-size: 24px;
+  }
+  
